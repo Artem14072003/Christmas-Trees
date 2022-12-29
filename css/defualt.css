@@ -8,16 +8,7 @@
     font-display: swap;
 }
 
-:root{
-    --main-color: #fff;
-    --second-color: #262626;
-    --one-color: #00654E;
-    --two-color: #006E55;
-    --three-color: #005844; 
-    --main-bg-color: #005844; 
-    --second-bg-color: #C0B487;
-    --trigger-color: #E6AB39;
-    --navigation-color: #E5AB39;
+html{
     box-sizing: border-box;
 }
 
@@ -84,6 +75,18 @@ button{
 button, 
 input{
     font-size: 1em;
+}
+
+.visualli-hiden{
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 @media (max-width: 1440px) {
